@@ -8,6 +8,6 @@ In this  my  first  try  is  to  put  some  basic's of connecting  python(3.6)  
 
 
 
-This  .py  file  also  contains  basic  mongo  query operation , to pull data  in various  ways . 
+This  configuration.py  file  also  contains  basic  mongo  query operation , to pull data  in various  ways . 
 
 
