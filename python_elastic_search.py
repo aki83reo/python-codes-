@@ -8,7 +8,6 @@ import pandas as pd
 #######################################################
 es = Elasticsearch()         ##initializing  elastic search
 ################### CREATING A INDEX  IN ELASTIC SEARCH  ###################
-
 ################## INDEX  ARE KIND OF DATABASES  ########################
 ################## TYPES  ARE TABLES  IN THE DATABASE #################
 
