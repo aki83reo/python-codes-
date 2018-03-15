@@ -5,7 +5,6 @@ from natty import DateParser  ##
 #####################################################################
 
 #######################This below function will  parse a string  and  understand if any dates  available or not  .
-
 def DateParsing(inp2):
     dp = DateParser(inp2)
     return dp.result()
