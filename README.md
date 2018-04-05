@@ -61,7 +61,7 @@ third if after manipulation user wants  to  push changes  to a selected  table  
 
 
 
-
+In this  i  tried  to  pull  data  from  multiple  index/dbs  from elasticsearch .
 
 
 
