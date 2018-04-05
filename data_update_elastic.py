@@ -14,7 +14,6 @@ from elasticsearch import Elasticsearch
 
 es = Elasticsearch("http://127.0.0.1:9300")    #### Initializing  ElasticSearch instance  with localhost  at port  9300
 
-
 ##############################################################################
 
 ############################# Mapping  of  data  to be inserted into elastic search############

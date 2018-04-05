@@ -12,7 +12,6 @@ from pyelasticsearch import ElasticSearch
 from elasticsearch import Elasticsearch
 import yaml
 ###################################################
-
 es = Elasticsearch("http://127.0.0.1:9300")    #### Initializing  ElasticSearch instance  with localhost  at port  9300
 
 def provider_details(providers_name,single_sensor_retrievel,data_inserted_in_sensor):
