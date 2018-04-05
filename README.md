@@ -33,6 +33,36 @@ datetime.datetime(2018, 3, 14, 17, 9, 56)
 I created  two  functions  in this file ,  first(DateParsing(inp2)) to  identify  dates ,  secound is  to  compare  is the asked date ispresent or  past or future   date (which_date() ) .  
 
 
+########## data_update_elastic.py 
+
+1.In this  file  , i have demonstrated a way  how you  can define  your own schema 
+
+for your database in elastic , and push  some data  according to  that  . 
+
+2. Defined  a  function called  provider_value_insert(provider_name,sensor_1,sensor_2,sensor_3), which  allows any  users  to  create  
+
+a index/database in elasticSearch ,along with 3  tables  .
+
+The dates are  defined  for today  , previous and day  before  yesterday  . 
+
+I hard coded the data  inside , but users  are free to  change  and  manipulate  as per there  choices .
+
+
+Then  i  used  standard CURL  requests to  push data into  elastic search  . 
+
+
+###########multiple_db_query.py 
+
+1.  I created  a function  called  ,provider_details(providers_name,single_sensor_retrievel,data_inserted_in_sensor)  , which  basically  gives  users 
+
+flexibility  to  decide which  DB user  want to  access  ,  along with  , define  a  single table/type  value  whose data user  wants  to  see .
+
+third if after manipulation user wants  to  push changes  to a selected  table  he can  describe  it here  . 
+
+
+
+
+
 
 
 
