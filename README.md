@@ -23,4 +23,16 @@ In  python_elastic_search.py  file  ,  i  tried  to  do  the below task ,
 --> pull  data from elastic search  into local python console .
 
 
+################### 3rd .py file 
+
+In  Date_parser.py  file ,  i  had  tried to  include a  awesome  library from natty called as dateparser  to  parse  textual dates  like ,  yesterday  , tomorrow ,  or any other format . It can  extract  dates from  a  string  contain  a date  like below . 
+
+"  my  birthday was tomorrow  "   =  It will  extract tomorrow  and give  tomorrows  date in datetime format  
+datetime.datetime(2018, 3, 14, 17, 9, 56)
+
+I created  two  functions  in this file ,  first(DateParsing(inp2)) to  identify  dates ,  secound is  to  compare  is the asked date ispresent or  past or future   date (which_date() ) .  
+
+
+
+
 
